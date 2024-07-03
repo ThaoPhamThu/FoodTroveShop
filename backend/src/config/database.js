@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 const connectDatabase = () => {
-    mongoose.connect('mongodb://phamthuthao-foodtrove:123456@localhost:27018/', {
+    mongoose.connect('mongodb+srv://phamthuthao13a220142015:tPjTmfxno4sDsnQN@cluster0.q6pzghc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
         useNewUrlParser: true,
         useFindAndModify: false,
         useUnifiedTopology: true

@@ -19,7 +19,9 @@ npm install
 npm start
 ```
 
-cd /home/ezpics/domains/createimage.ezpics.vn/public_html 4. Deploy.
+cd /home/ezpics/domains/createimage.ezpics.vn/public_html
+
+4. Deploy.
 
 ```
 docker build -t shop-backend .

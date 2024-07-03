@@ -2,10 +2,10 @@
   "name": "foodtrove",
   "version": "1.0.0",
   "description": "Shop Online FoodTrove",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " nodemon ../backend/src/server.js"
+    "start": " nodemon ../backend/src/index.js"
   },
   "repository": {
     "type": "git",
