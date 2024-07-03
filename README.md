@@ -10,29 +10,34 @@ git clone https://github.com/ThaoPhamThu/FoodTroveShop
 2. Install the dependencies.
 
 ```
+cd frontend
 npm install
 ```
+
+cd backend
+npm install
 
 3. Run app locally.
 
 ```
+cd frontend
 npm start
 ```
 
-cd /home/ezpics/domains/createimage.ezpics.vn/public_html
+cd backend
+npm start
 
 4. Deploy.
 
 ```
+cd backend
 docker build -t shop-backend .
 docker container run -p 4141:4000  shop-backend
 
 ```
 
-docker build -t shop-frontend .
-docker run -i -t -p 3131:3000 shop-frontend
+## Shalom!
 
 ```
 
-## Shalom!
 ```
